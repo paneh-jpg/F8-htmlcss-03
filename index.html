@@ -99,7 +99,7 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <header class="header">
+    <div class="header-fixed">
       <div class="container">
         <!-- Header Top  -->
         <div class="header-top">
@@ -117,16 +117,18 @@
           <nav class="navbar">
             <ul class="navbar__list">
               <li class="navbar__item">
-                <a href="#!" class="navbar__link navbar__link--active">Home</a>
+                <a href="#home" class="navbar__link navbar__link--active"
+                  >Home</a
+                >
               </li>
               <li class="navbar__item">
-                <a href="#!" class="navbar__link">Services</a>
+                <a href="#service" class="navbar__link">Services</a>
               </li>
               <li class="navbar__item">
-                <a href="#!" class="navbar__link">About</a>
+                <a href="#about" class="navbar__link">About</a>
               </li>
               <li class="navbar__item">
-                <a href="#!" class="navbar__link">Doctors</a>
+                <a href="#doctor" class="navbar__link">Doctors</a>
               </li>
             </ul>
           </nav>
@@ -137,7 +139,11 @@
             <a href="#!" class="btn header-action__signup">Sign up</a>
           </div>
         </div>
+      </div>
+    </div>
 
+    <header class="header space-height" id="home">
+      <div class="container">
         <!-- Hero -->
         <section class="hero">
           <!-- Hero Content  -->
@@ -172,7 +178,7 @@
 
     <main>
       <!-- Service  -->
-      <section class="service">
+      <section class="service space-height" id="service">
         <div class="container">
           <!-- Service Heading  -->
           <h2 class="section-heading">Our services</h2>
@@ -289,7 +295,7 @@
       </section>
 
       <!--  Work  -->
-      <section class="work">
+      <section class="work space-height-work" id="about">
         <div class="container">
           <h2 class="section-heading">How it works</h2>
           <p class="section-desc">
@@ -383,7 +389,7 @@
       </section>
 
       <!-- Member  -->
-      <section class="member">
+      <section class="member space-height" id="doctor">
         <div class="container">
           <!-- Member header  -->
           <header class="member__header">

@@ -6,6 +6,11 @@
   --header-bg: #10375c;
 }
 
+html,
+body {
+  scroll-behavior: smooth;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -153,6 +158,23 @@ a {
 }
 
 /* ========== Header Top ========== */
+.space-height {
+  scroll-margin-top: 80px;
+}
+
+.space-height-work {
+  scroll-margin-top: -20px;
+}
+
+.header-fixed {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  position: sticky;
+  top: -20px;
+  z-index: 999;
+  background: var(--header-bg);
+}
+
 .header-top {
   display: flex;
   align-items: center;
@@ -206,7 +228,7 @@ a {
 
 /* ========== Hero ========== */
 .hero {
-  margin-top: 76px;
+  margin-top: 36px;
   display: flex;
   align-items: center;
 }

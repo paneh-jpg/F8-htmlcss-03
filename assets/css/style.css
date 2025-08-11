@@ -46,7 +46,7 @@ body {
   transition: stroke 0.2s ease;
 }
 
-.member__control-btn:hover .member__control-icon path {
+.control-btn:hover .control-icon path {
   stroke: #fff;
   transition: stroke 0.2s ease;
 }
@@ -571,6 +571,7 @@ a {
   min-height: 427px;
   background-color: #2e80ce;
   display: flex;
+  gap: 160px;
   align-items: center;
   position: relative;
 }
@@ -587,9 +588,9 @@ a {
   height: 522px;
 }
 
-.install__content {
+/* .install__content {
   width: 51%;
-}
+} */
 
 .install .section-heading,
 .install .section-desc {
@@ -606,8 +607,10 @@ a {
 }
 
 .install .section-desc {
+  padding-right: 70px;
+  width: 586px;
   color: #fff;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 300;
   line-height: 1.67;
 }
@@ -862,6 +865,7 @@ section.news__content > * {
   font-size: 1.4rem;
   font-style: normal;
   font-weight: 600;
+  border: none;
 }
 
 .subscribe-input {
